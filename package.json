@@ -26,6 +26,8 @@
     "@tailwindcss/line-clamp": "^0.3.1",
     "axios": "^0.24.0",
     "clsx": "^1.1.1",
+    "gatsby-plugin-postcss": "^5.4.0",
+    "postcss": "^8.4.5",
     "confetti-js": "^0.0.18",
     "copy-to-clipboard": "^3.3.1",
     "crypto-browserify": "^3.12.0",
