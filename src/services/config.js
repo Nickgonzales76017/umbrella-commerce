@@ -1,6 +1,7 @@
 import { QueryClient } from "react-query"
-
-let medusaUrl = "http://localhost:9000"
+// use port 3000 unless there exists a preconfigured port
+var port = process.env.PORT || 9000;
+let medusaUrl = "http://localhost:"+port
 
 // deprecated
 if (process.env.GATSBY_STORE_URL) {
