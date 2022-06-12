@@ -1,6 +1,6 @@
 import axios from "axios"
-
-let baseURL = "http://localhost:9000"
+var port = process.env.PORT || 9000;
+let baseURL = "http://localhost:"+port
 
 // deprecated
 if (process.env.GATSBY_STORE_URL) {
