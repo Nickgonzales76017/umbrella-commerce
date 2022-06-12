@@ -16,7 +16,6 @@ module.exports = {
     {
       resolve: "gatsby-plugin-svgr",
       options: {
-        implementation: require("sass"),
         prettier: true, // use prettier to format JS code output (default)
         svgo: true, // use svgo to optimize SVGs (default)
       },
@@ -35,7 +34,12 @@ module.exports = {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/a/*`] },
     },
-    "gatsby-plugin-postcss",
+     {
+    resolve: `gatsby-plugin-sass`,
+    options: {
+      implementation: require("sass"),
+          },
+     },
     "gatsby-plugin-typescript",
   ],
 }
