@@ -16,6 +16,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-svgr",
       options: {
+        implementation: require("sass"),
         prettier: true, // use prettier to format JS code output (default)
         svgo: true, // use svgo to optimize SVGs (default)
       },
