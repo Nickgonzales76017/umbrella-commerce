@@ -34,7 +34,7 @@ module.exports = {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/a/*`] },
     },
-    `gatsby-plugin-postcss`,
+    "gatsby-plugin-postcss",
     "gatsby-plugin-typescript",
   ],
 }
