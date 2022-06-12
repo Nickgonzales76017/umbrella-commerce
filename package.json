@@ -110,6 +110,7 @@
     "develop": "gatsby develop",
     "develop-local": "gatsby develop -p 7000",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "heroku-postbuild":"gatsby build",
     "start": "npm run serve",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
